@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Welcome back, please login!</title>
+</head>
+<body>
+    <h1>Please login!</h1>
+    <form>
+      <label for="inputEmail">Email address *</label>
+      <input type="email"
+             title="email"
+             required
+             autofocus
+             id="inputEmail"
+             placeholder="Your email address">
+
+      <label for="inputPassword">Password *</label>
+      <input type="password"
+             title="password"
+             required
+             id="inputPassword"
+             placeholder="Your secret password!">
+
+      <button type="submit"
+              title="Login!">Login!</button>
+    </form>
+</body>
+</html>
